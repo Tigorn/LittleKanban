@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E3DAEF1EC202FE0055F30A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3DAEE1EC202FE0055F30A /* AppDelegate.swift */; };
+		84E3DAF11EC202FE0055F30A /* LittleKanbanPrototypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3DAF01EC202FE0055F30A /* LittleKanbanPrototypeController.swift */; };
+		84E3DAF41EC202FE0055F30A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E3DAF21EC202FE0055F30A /* Main.storyboard */; };
+		84E3DAF71EC202FE0055F30A /* LittleKanbanPrototype.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84E3DAF51EC202FE0055F30A /* LittleKanbanPrototype.xcdatamodeld */; };
+		84E3DAF91EC202FE0055F30A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E3DAF81EC202FE0055F30A /* Assets.xcassets */; };
+		84E3DAFC1EC202FE0055F30A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E3DAFA1EC202FE0055F30A /* LaunchScreen.storyboard */; };
+		84E3DB071EC202FF0055F30A /* LittleKanbanPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3DB061EC202FF0055F30A /* LittleKanbanPrototypeTests.swift */; };
+		84E3DB121EC202FF0055F30A /* LittleKanbanPrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3DB111EC202FF0055F30A /* LittleKanbanPrototypeUITests.swift */; };
+		84E3DB211EC20A3C0055F30A /* LittleKanbanPrototypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3DB201EC20A3C0055F30A /* LittleKanbanPrototypeView.swift */; };
+		84E3DB231EC20B1F0055F30A /* LittleKanbanPrototypeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3DB221EC20B1F0055F30A /* LittleKanbanPrototypeListView.swift */; };
+		84E3DB251EC21D8C0055F30A /* LittleKanbanPrototypeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3DB241EC21D8C0055F30A /* LittleKanbanPrototypeConstants.swift */; };
+		84E3DB271EC2533C0055F30A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3DB261EC2533C0055F30A /* UIViewExtension.swift */; };
+		84E3DB291EC27BA00055F30A /* LittleKanbanCellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3DB281EC27BA00055F30A /* LittleKanbanCellItem.swift */; };
+		84E3DB2B1EC27CB10055F30A /* LittleKanbanCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3DB2A1EC27CB10055F30A /* LittleKanbanCellViewModel.swift */; };
+		84E3DB2D1EC27D720055F30A /* LittleKanbanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3DB2C1EC27D720055F30A /* LittleKanbanTableViewCell.swift */; };
+		84E3DB2F1EC2828C0055F30A /* LittleKanbanTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3DB2E1EC2828C0055F30A /* LittleKanbanTableView.swift */; };
+		84E3DB311EC28FD40055F30A /* LittleKanbanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3DB301EC28FD40055F30A /* LittleKanbanData.swift */; };
+		84E3DB331EC3A2640055F30A /* LittleKanbanSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3DB321EC3A2640055F30A /* LittleKanbanSectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E3DB031EC202FF0055F30A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E3DAE31EC202FE0055F30A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E3DAEA1EC202FE0055F30A;
+			remoteInfo = LittleKanbanPrototype;
+		};
+		84E3DB0E1EC202FF0055F30A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E3DAE31EC202FE0055F30A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E3DAEA1EC202FE0055F30A;
+			remoteInfo = LittleKanbanPrototype;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84E3DAEB1EC202FE0055F30A /* LittleKanbanPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleKanbanPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E3DAEE1EC202FE0055F30A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84E3DAF01EC202FE0055F30A /* LittleKanbanPrototypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleKanbanPrototypeController.swift; sourceTree = "<group>"; };
+		84E3DAF31EC202FE0055F30A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84E3DAF61EC202FE0055F30A /* LittleKanbanPrototype.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittleKanbanPrototype.xcdatamodel; sourceTree = "<group>"; };
+		84E3DAF81EC202FE0055F30A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E3DAFB1EC202FE0055F30A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84E3DAFD1EC202FE0055F30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E3DB021EC202FF0055F30A /* LittleKanbanPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleKanbanPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E3DB061EC202FF0055F30A /* LittleKanbanPrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleKanbanPrototypeTests.swift; sourceTree = "<group>"; };
+		84E3DB081EC202FF0055F30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E3DB0D1EC202FF0055F30A /* LittleKanbanPrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleKanbanPrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E3DB111EC202FF0055F30A /* LittleKanbanPrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleKanbanPrototypeUITests.swift; sourceTree = "<group>"; };
+		84E3DB131EC202FF0055F30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E3DB201EC20A3C0055F30A /* LittleKanbanPrototypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleKanbanPrototypeView.swift; sourceTree = "<group>"; };
+		84E3DB221EC20B1F0055F30A /* LittleKanbanPrototypeListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleKanbanPrototypeListView.swift; sourceTree = "<group>"; };
+		84E3DB241EC21D8C0055F30A /* LittleKanbanPrototypeConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleKanbanPrototypeConstants.swift; sourceTree = "<group>"; };
+		84E3DB261EC2533C0055F30A /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		84E3DB281EC27BA00055F30A /* LittleKanbanCellItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleKanbanCellItem.swift; sourceTree = "<group>"; };
+		84E3DB2A1EC27CB10055F30A /* LittleKanbanCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleKanbanCellViewModel.swift; sourceTree = "<group>"; };
+		84E3DB2C1EC27D720055F30A /* LittleKanbanTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleKanbanTableViewCell.swift; sourceTree = "<group>"; };
+		84E3DB2E1EC2828C0055F30A /* LittleKanbanTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleKanbanTableView.swift; sourceTree = "<group>"; };
+		84E3DB301EC28FD40055F30A /* LittleKanbanData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleKanbanData.swift; sourceTree = "<group>"; };
+		84E3DB321EC3A2640055F30A /* LittleKanbanSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleKanbanSectionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E3DAE81EC202FE0055F30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E3DAFF1EC202FF0055F30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E3DB0A1EC202FF0055F30A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E3DAE21EC202FE0055F30A = {
+			isa = PBXGroup;
+			children = (
+				84E3DAED1EC202FE0055F30A /* LittleKanbanPrototype */,
+				84E3DB051EC202FF0055F30A /* LittleKanbanPrototypeTests */,
+				84E3DB101EC202FF0055F30A /* LittleKanbanPrototypeUITests */,
+				84E3DAEC1EC202FE0055F30A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E3DAEC1EC202FE0055F30A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E3DAEB1EC202FE0055F30A /* LittleKanbanPrototype.app */,
+				84E3DB021EC202FF0055F30A /* LittleKanbanPrototypeTests.xctest */,
+				84E3DB0D1EC202FF0055F30A /* LittleKanbanPrototypeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E3DAED1EC202FE0055F30A /* LittleKanbanPrototype */ = {
+			isa = PBXGroup;
+			children = (
+				84E3DB1F1EC2094B0055F30A /* Supporting Files */,
+				84E3DB241EC21D8C0055F30A /* LittleKanbanPrototypeConstants.swift */,
+				84E3DB221EC20B1F0055F30A /* LittleKanbanPrototypeListView.swift */,
+				84E3DB201EC20A3C0055F30A /* LittleKanbanPrototypeView.swift */,
+				84E3DAF01EC202FE0055F30A /* LittleKanbanPrototypeController.swift */,
+				84E3DB281EC27BA00055F30A /* LittleKanbanCellItem.swift */,
+				84E3DB2A1EC27CB10055F30A /* LittleKanbanCellViewModel.swift */,
+				84E3DB2C1EC27D720055F30A /* LittleKanbanTableViewCell.swift */,
+				84E3DB2E1EC2828C0055F30A /* LittleKanbanTableView.swift */,
+				84E3DB301EC28FD40055F30A /* LittleKanbanData.swift */,
+				84E3DB321EC3A2640055F30A /* LittleKanbanSectionView.swift */,
+				84E3DB261EC2533C0055F30A /* UIViewExtension.swift */,
+				84E3DAF21EC202FE0055F30A /* Main.storyboard */,
+			);
+			path = LittleKanbanPrototype;
+			sourceTree = "<group>";
+		};
+		84E3DB051EC202FF0055F30A /* LittleKanbanPrototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E3DB061EC202FF0055F30A /* LittleKanbanPrototypeTests.swift */,
+				84E3DB081EC202FF0055F30A /* Info.plist */,
+			);
+			path = LittleKanbanPrototypeTests;
+			sourceTree = "<group>";
+		};
+		84E3DB101EC202FF0055F30A /* LittleKanbanPrototypeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84E3DB111EC202FF0055F30A /* LittleKanbanPrototypeUITests.swift */,
+				84E3DB131EC202FF0055F30A /* Info.plist */,
+			);
+			path = LittleKanbanPrototypeUITests;
+			sourceTree = "<group>";
+		};
+		84E3DB1F1EC2094B0055F30A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E3DAEE1EC202FE0055F30A /* AppDelegate.swift */,
+				84E3DAF81EC202FE0055F30A /* Assets.xcassets */,
+				84E3DAFA1EC202FE0055F30A /* LaunchScreen.storyboard */,
+				84E3DAFD1EC202FE0055F30A /* Info.plist */,
+				84E3DAF51EC202FE0055F30A /* LittleKanbanPrototype.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E3DAEA1EC202FE0055F30A /* LittleKanbanPrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E3DB161EC202FF0055F30A /* Build configuration list for PBXNativeTarget "LittleKanbanPrototype" */;
+			buildPhases = (
+				84E3DAE71EC202FE0055F30A /* Sources */,
+				84E3DAE81EC202FE0055F30A /* Frameworks */,
+				84E3DAE91EC202FE0055F30A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleKanbanPrototype;
+			productName = LittleKanbanPrototype;
+			productReference = 84E3DAEB1EC202FE0055F30A /* LittleKanbanPrototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84E3DB011EC202FF0055F30A /* LittleKanbanPrototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E3DB191EC202FF0055F30A /* Build configuration list for PBXNativeTarget "LittleKanbanPrototypeTests" */;
+			buildPhases = (
+				84E3DAFE1EC202FF0055F30A /* Sources */,
+				84E3DAFF1EC202FF0055F30A /* Frameworks */,
+				84E3DB001EC202FF0055F30A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E3DB041EC202FF0055F30A /* PBXTargetDependency */,
+			);
+			name = LittleKanbanPrototypeTests;
+			productName = LittleKanbanPrototypeTests;
+			productReference = 84E3DB021EC202FF0055F30A /* LittleKanbanPrototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84E3DB0C1EC202FF0055F30A /* LittleKanbanPrototypeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E3DB1C1EC202FF0055F30A /* Build configuration list for PBXNativeTarget "LittleKanbanPrototypeUITests" */;
+			buildPhases = (
+				84E3DB091EC202FF0055F30A /* Sources */,
+				84E3DB0A1EC202FF0055F30A /* Frameworks */,
+				84E3DB0B1EC202FF0055F30A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E3DB0F1EC202FF0055F30A /* PBXTargetDependency */,
+			);
+			name = LittleKanbanPrototypeUITests;
+			productName = LittleKanbanPrototypeUITests;
+			productReference = 84E3DB0D1EC202FF0055F30A /* LittleKanbanPrototypeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E3DAE31EC202FE0055F30A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "FH Rosenheim";
+				TargetAttributes = {
+					84E3DAEA1EC202FE0055F30A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					84E3DB011EC202FF0055F30A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84E3DAEA1EC202FE0055F30A;
+					};
+					84E3DB0C1EC202FF0055F30A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84E3DAEA1EC202FE0055F30A;
+					};
+				};
+			};
+			buildConfigurationList = 84E3DAE61EC202FE0055F30A /* Build configuration list for PBXProject "LittleKanbanPrototype" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E3DAE21EC202FE0055F30A;
+			productRefGroup = 84E3DAEC1EC202FE0055F30A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E3DAEA1EC202FE0055F30A /* LittleKanbanPrototype */,
+				84E3DB011EC202FF0055F30A /* LittleKanbanPrototypeTests */,
+				84E3DB0C1EC202FF0055F30A /* LittleKanbanPrototypeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E3DAE91EC202FE0055F30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E3DAFC1EC202FE0055F30A /* LaunchScreen.storyboard in Resources */,
+				84E3DAF91EC202FE0055F30A /* Assets.xcassets in Resources */,
+				84E3DAF41EC202FE0055F30A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E3DB001EC202FF0055F30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E3DB0B1EC202FF0055F30A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E3DAE71EC202FE0055F30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E3DB211EC20A3C0055F30A /* LittleKanbanPrototypeView.swift in Sources */,
+				84E3DB331EC3A2640055F30A /* LittleKanbanSectionView.swift in Sources */,
+				84E3DB251EC21D8C0055F30A /* LittleKanbanPrototypeConstants.swift in Sources */,
+				84E3DB231EC20B1F0055F30A /* LittleKanbanPrototypeListView.swift in Sources */,
+				84E3DAF71EC202FE0055F30A /* LittleKanbanPrototype.xcdatamodeld in Sources */,
+				84E3DB2D1EC27D720055F30A /* LittleKanbanTableViewCell.swift in Sources */,
+				84E3DB271EC2533C0055F30A /* UIViewExtension.swift in Sources */,
+				84E3DB291EC27BA00055F30A /* LittleKanbanCellItem.swift in Sources */,
+				84E3DB2F1EC2828C0055F30A /* LittleKanbanTableView.swift in Sources */,
+				84E3DB311EC28FD40055F30A /* LittleKanbanData.swift in Sources */,
+				84E3DB2B1EC27CB10055F30A /* LittleKanbanCellViewModel.swift in Sources */,
+				84E3DAF11EC202FE0055F30A /* LittleKanbanPrototypeController.swift in Sources */,
+				84E3DAEF1EC202FE0055F30A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E3DAFE1EC202FF0055F30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E3DB071EC202FF0055F30A /* LittleKanbanPrototypeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E3DB091EC202FF0055F30A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E3DB121EC202FF0055F30A /* LittleKanbanPrototypeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E3DB041EC202FF0055F30A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E3DAEA1EC202FE0055F30A /* LittleKanbanPrototype */;
+			targetProxy = 84E3DB031EC202FF0055F30A /* PBXContainerItemProxy */;
+		};
+		84E3DB0F1EC202FF0055F30A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E3DAEA1EC202FE0055F30A /* LittleKanbanPrototype */;
+			targetProxy = 84E3DB0E1EC202FF0055F30A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84E3DAF21EC202FE0055F30A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E3DAF31EC202FE0055F30A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84E3DAFA1EC202FE0055F30A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E3DAFB1EC202FE0055F30A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E3DB141EC202FF0055F30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84E3DB151EC202FF0055F30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E3DB171EC202FF0055F30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LittleKanbanPrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.rosenheim.fh.LittleKanbanPrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84E3DB181EC202FF0055F30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LittleKanbanPrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.rosenheim.fh.LittleKanbanPrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		84E3DB1A1EC202FF0055F30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LittleKanbanPrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.rosenheim.fh.LittleKanbanPrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleKanbanPrototype.app/LittleKanbanPrototype";
+			};
+			name = Debug;
+		};
+		84E3DB1B1EC202FF0055F30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LittleKanbanPrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.rosenheim.fh.LittleKanbanPrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleKanbanPrototype.app/LittleKanbanPrototype";
+			};
+			name = Release;
+		};
+		84E3DB1D1EC202FF0055F30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LittleKanbanPrototypeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.rosenheim.fh.LittleKanbanPrototypeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LittleKanbanPrototype;
+			};
+			name = Debug;
+		};
+		84E3DB1E1EC202FF0055F30A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LittleKanbanPrototypeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.rosenheim.fh.LittleKanbanPrototypeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LittleKanbanPrototype;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E3DAE61EC202FE0055F30A /* Build configuration list for PBXProject "LittleKanbanPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E3DB141EC202FF0055F30A /* Debug */,
+				84E3DB151EC202FF0055F30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E3DB161EC202FF0055F30A /* Build configuration list for PBXNativeTarget "LittleKanbanPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E3DB171EC202FF0055F30A /* Debug */,
+				84E3DB181EC202FF0055F30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84E3DB191EC202FF0055F30A /* Build configuration list for PBXNativeTarget "LittleKanbanPrototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E3DB1A1EC202FF0055F30A /* Debug */,
+				84E3DB1B1EC202FF0055F30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84E3DB1C1EC202FF0055F30A /* Build configuration list for PBXNativeTarget "LittleKanbanPrototypeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E3DB1D1EC202FF0055F30A /* Debug */,
+				84E3DB1E1EC202FF0055F30A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84E3DAF51EC202FE0055F30A /* LittleKanbanPrototype.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84E3DAF61EC202FE0055F30A /* LittleKanbanPrototype.xcdatamodel */,
+			);
+			currentVersion = 84E3DAF61EC202FE0055F30A /* LittleKanbanPrototype.xcdatamodel */;
+			path = LittleKanbanPrototype.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84E3DAE31EC202FE0055F30A /* Project object */;
+}
