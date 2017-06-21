@@ -69,20 +69,20 @@ class LittleKanbanPrototypeController: UIViewController {
     func convertPointToIndexPath(_ point: CGPoint) -> (UITableView, IndexPath)? {
         //for tv in littleKanbanView.littleKanbanColumnsAsTableViews {
         //Die UITableViews sind hier drinnen alle, geprüft durch count.
-//        for tableViewFrames in littleKanbanView.littleKanbanColumnsAsTableViews {
-//            let isInTableView = tableViewFrames.frame.contains(point)
-//            let tableView = littleKanbanView.littleKanbanColumnsAsTableViews.filter({$0.frame.contains(point)})
-//        }
+        //for tableViewFrames in littleKanbanView.littleKanbanColumnsAsTableViews {
+        //let isInTableView = tableViewFrames.frame.contains(point)
+        //let tableView = littleKanbanView.littleKanbanColumnsAsTableViews.filter({$0.frame.contains(point)})
+        //}
         //littleKanbanView.littleKanbanColumnsAsTableViews[1].frame.contains(point)
         
         if let tableView = (littleKanbanView.littleKanbanColumnsAsTableViews.filter{ $0.frame.contains(point)}).first{
         
             //Das Problem ist das die anderen TableViews nicht gefiltert werden.
-//        for i in 0...littleKanbanView.littleKanbanColumnsAsTableViews.count-1 {
-//            let isInTableView = [littleKanbanView.littleKanbanColumnsAsTableViews[i].frame.contains(point)]
-//                print(isInTableView)
-//                   }
-//            let tableView = littleKanbanView.littleKanbanColumnsAsTableViews[3]
+            //for i in 0...littleKanbanView.littleKanbanColumnsAsTableViews.count-1 {
+            //let isInTableView = [littleKanbanView.littleKanbanColumnsAsTableViews[i].frame.contains(point)]
+            //print(isInTableView)
+            //}
+            //let tableView = littleKanbanView.littleKanbanColumnsAsTableViews[3]
             //if let tableView = [tv].filter({ $0.frame.contains(point)} ).first{
             let localPoint = littleKanbanView.convert(point, to: tableView)
             let lastRowIndex = focus?.0 === tableView ? tableView.numberOfRows(inSection: 0) - 1 : tableView.numberOfRows(inSection: 0)
@@ -110,7 +110,7 @@ class LittleKanbanPrototypeController: UIViewController {
             
                 //Code für Testzwecke!!!
                 //let element = LittleKanbanData.data[0].remove(at: indexPath.row)
-//                print(element)
+                //print(element)
                 
                 //Ab hier ist der Code, um eine Zelle aufzuheben!!!
                 let cell = tableView.cellForRow(at: indexPath)!
@@ -150,8 +150,8 @@ class LittleKanbanPrototypeController: UIViewController {
                 if let (tableView, indexPath) = convertPointToIndexPath(location) ?? focus {
                     self.focus = nil
                     
-                    //Code für Testzwecke!!!
-//                    if tableView === littleKanbanView.littleKanbanColumnsAsTableViews.first { LittleKanbanData.data.insert(element!, at: indexPath.row)}
+                //Code für Testzwecke!!!
+                //if tableView === littleKanbanView.littleKanbanColumnsAsTableViews.first { LittleKanbanData.data.insert(element!, at: indexPath.row)}
                 
             
                 element = nil
